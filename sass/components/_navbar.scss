@@ -1,0 +1,68 @@
+.nav{
+    position: fixed;
+    width: 100%;
+    display: inline-block;
+    height:8rem;
+    background-color: #000;
+    box-shadow: 0rem .5rem 1rem rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+
+    &_brand{
+        display:inline-block;
+        position: absolute;
+        top:15%;
+        left:1%;
+        font-size: 2.5rem;
+        color: rgb(221, 221, 221);
+        letter-spacing: 2px;
+        font-weight: 500;
+        padding-left: 2rem;
+        margin-top: 1rem;
+        text-transform: uppercase;
+    }
+
+    &_links{
+        font-size:1.5rem;
+        color: rgb(212, 212, 212);
+        display: inline-block;
+        position: absolute;
+        top:12%;
+        right:3%;
+        margin-top: 2rem;
+
+        ul{
+            padding-bottom: 3rem;
+            
+            a{ 
+                text-decoration: none;
+                color:#fff;
+                margin-left:3rem;
+                padding-bottom: .5rem;
+
+                &:hover{
+                    border-bottom: 2px rgba(255, 255, 0, 0.8) solid;
+                }
+            }
+
+            li{
+                display: inline-block;
+            }
+        }
+    & .btn-memberships{
+        background-color: rgba(255, 255, 0, 0.9);
+        padding:.75rem;
+        color:#000;
+        font-weight:500;
+        letter-spacing: 1px;
+        
+        &:hover{
+            border-bottom: none;
+            background-color: rgba(255, 255, 0, 0.50);
+        }
+    }
+    
+    }
+
+
+
+}
