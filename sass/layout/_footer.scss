@@ -1,0 +1,21 @@
+.info{
+    background-color: rgb(19, 19, 19);
+    color:grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:flex;
+    padding:5rem;
+
+
+    &_hours{
+        font-size:1.25rem;
+
+        td{
+            padding-left: 1.25rem;
+        }
+    }
+
+    &_location{
+        font-size: 1.5rem;
+        margin-left: 2rem;
+    }
+}
