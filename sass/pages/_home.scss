@@ -1,14 +1,101 @@
-.about{
+.features{
     position: relative;
     z-index: 2000;
-    padding-top: 25rem;
-    height:1000px;
-    background:linear-gradient(to top left, rgba(255, 132, 132, 0.65),rgba(255, 255, 255, 0.9)),url(../images/woman-barbell.jpg);
+    // height:1
+    // background:linear-gradient(to top left, rgba(255, 132, 132, 0.65),rgba(255, 255, 255, 0.9)),url(../images/woman-barbell.jpg);
+    // background:linear-gradient(to top left, rgba(255, 187, 187, 0.65),rgba(255, 255, 255, 0.95)),url(../images/woman-barbell.jpg);
+    background-color: #fff;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+
+    & h2{
+        padding-top: 5%;
+        font-size: 3rem;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+ 
+
+    &_grid{
+        padding: 5% 0;
+        display:grid;
+        grid-template-columns:1fr 2fr 2fr 1fr;
+        grid-gap: 10rem;
+
+        & .one{
+            grid-column: 2;
+        }
+
+        & .two{
+            grid-column: 3;
+        }
+
+        &--img{
+
+            img{
+                width:450px;
+                height:300px;
+            }
+        }
+
+        &--text{
+            grid-column: 3;
+            margin:auto;
+            
+
+            h3{
+                font-family: 'Montserrat', 'sans-serif';
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                font-size:2.5rem;
+                color:rgb(75, 75, 75);
+            }
+
+            p{
+                font-family: 'Roboto', sans-serif;
+                padding-top:2rem;
+            }
+        }
+    }
 }
+
+/* Testimonials */
+.test-head{
+    font-size:3rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.testimonials{
+    padding:5% 10%;
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    font-family: "Roboto", "sans-serif";
+
+    &_img{
+        width:40%;
+        float:left;
+        text-align: right;
+
+        img{
+            width:150px;
+            height:150px;
+            border-radius:50%;
+        }
+    }
+    &_text{
+        height:150px;
+        width:30%;
+        float:left;
+        margin: 3rem 0 auto 5rem;
+    }
+}
+
+
 
 .convert{
     text-align: center;

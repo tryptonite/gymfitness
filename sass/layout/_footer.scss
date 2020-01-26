@@ -15,7 +15,11 @@
     }
 
     &_location{
-        font-size: 1.5rem;
         margin-left: 5rem;
+
+        p{
+            font-size:1.5rem;
+            line-height:25px;
+        }
     }
 }

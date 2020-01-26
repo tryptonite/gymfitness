@@ -17,6 +17,9 @@ body {
 html, body {
   font-family: 'Poppins','sans-serif'; }
 
+p {
+  font-size: 1.75rem; }
+
 .button {
   font-size: 2.5rem;
   font-family: 'Poppins','sans-serif';
@@ -87,8 +90,10 @@ html, body {
     .info_hours td {
       padding-left: 1.25rem; }
   .info_location {
-    font-size: 1.5rem;
     margin-left: 5rem; }
+    .info_location p {
+      font-size: 1.5rem;
+      line-height: 25px; }
 
 .header {
   height: 800px;
@@ -139,16 +144,69 @@ html, body {
       bottom: 3%;
       left: 3%; }
 
-.about {
+.features {
   position: relative;
   z-index: 2000;
-  padding-top: 25rem;
-  height: 1000px;
-  background: linear-gradient(to top left, rgba(255, 132, 132, 0.65), rgba(255, 255, 255, 0.9)), url(../images/woman-barbell.jpg);
+  background-color: #fff;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed; }
+  .features h2 {
+    padding-top: 5%;
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center; }
+  .features_grid {
+    padding: 5% 0;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-gap: 10rem; }
+    .features_grid .one {
+      grid-column: 2; }
+    .features_grid .two {
+      grid-column: 3; }
+    .features_grid--img img {
+      width: 450px;
+      height: 300px; }
+    .features_grid--text {
+      grid-column: 3;
+      margin: auto; }
+      .features_grid--text h3 {
+        font-family: 'Montserrat', 'sans-serif';
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 2.5rem;
+        color: #4b4b4b; }
+      .features_grid--text p {
+        font-family: 'Roboto', sans-serif;
+        padding-top: 2rem; }
+
+/* Testimonials */
+.test-head {
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-align: center; }
+
+.testimonials {
+  padding: 5% 10%;
+  display: inline-block;
+  width: 100%;
+  margin: 0 auto;
+  font-family: "Roboto", "sans-serif"; }
+  .testimonials_img {
+    width: 40%;
+    float: left;
+    text-align: right; }
+    .testimonials_img img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%; }
+  .testimonials_text {
+    height: 150px;
+    width: 30%;
+    float: left;
+    margin: 3rem 0 auto 5rem; }
 
 .convert {
   text-align: center;

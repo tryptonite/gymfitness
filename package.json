@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "bulma": "^0.8.0",
+    "bulma-carousel": "^4.0.4"
+  },
   "devDependencies": {
     "node-sass": "^4.13.1"
   },
