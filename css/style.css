@@ -66,18 +66,18 @@ p {
         margin-left: 3rem;
         padding-bottom: .5rem; }
         .nav_links ul a:hover {
-          border-bottom: 2px #f73d37 solid; }
+          border-bottom: 2px rgba(2, 103, 255, 0.95) solid; }
       .nav_links ul li {
         display: inline-block; }
     .nav_links .btn-memberships {
-      background-color: #f73d37;
+      background-color: rgba(2, 103, 255, 0.95);
       padding: .75rem;
       color: #fff;
       font-weight: 500;
       letter-spacing: 1px; }
       .nav_links .btn-memberships:hover {
         border-bottom: none;
-        background-color: rgba(247, 62, 55, 0.75); }
+        background-color: rgba(2, 103, 255, 0.75); }
 
 .info {
   background-color: #131313;
@@ -97,7 +97,7 @@ p {
 
 .header {
   height: 800px;
-  background: linear-gradient(to top, #cc2936, rgba(255, 123, 61, 0.8)), url(../images/dumbbell-equipment.jpg);
+  background: linear-gradient(rgba(2, 103, 255, 0.65), rgba(23, 190, 241, 0.5)), url(../images/dumbbell-equipment.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -105,14 +105,14 @@ p {
     position: absolute;
     top: 25%;
     left: 15%;
-    font-size: 4rem;
+    font-size: 4.5rem;
     text-transform: uppercase;
     color: rgba(0, 0, 0, 0.8); }
   .header_span {
     position: absolute;
     top: 65%;
-    left: -4%;
-    font-size: 14.5rem;
+    left: -2%;
+    font-size: 12.5rem;
     color: rgba(255, 255, 255, 0.7); }
   .header_video {
     position: absolute;
@@ -127,7 +127,7 @@ p {
       background-color: #313131;
       color: #fff; }
       .header_button .btn-head:hover {
-        background-color: rgba(122, 122, 122, 0.795);
+        background-color: rgba(122, 122, 122, 0.8);
         color: #d8d8d8; }
   .header_fade-text {
     color: rgba(255, 255, 255, 0.025); }
@@ -153,7 +153,9 @@ p {
   background-size: cover;
   background-attachment: fixed; }
   .features h2 {
-    padding-top: 5%;
+    padding: 2rem 0;
+    background-color: #000;
+    color: #fff;
     font-size: 3rem;
     text-transform: uppercase;
     text-align: center; }
@@ -211,7 +213,7 @@ p {
 .convert {
   text-align: center;
   height: 275px;
-  background: linear-gradient(to right, #cc2936, rgba(255, 123, 61, 0.85));
+  background: linear-gradient(rgba(2, 103, 255, 0.808), rgba(0, 134, 172, 0.781));
   display: flex;
   flex-direction: column;
   margin: auto; }
@@ -225,9 +227,10 @@ p {
       font-weight: 600; }
   .convert_button .button-cvt {
     color: #000;
-    background-color: #FBE055; }
+    background-color: #313131;
+    color: #fff; }
     .convert_button .button-cvt:hover {
-      background-color: rgba(251, 223, 85, 0.7); }
+      background-color: rgba(122, 122, 122, 0.8); }
   .convert_expiry {
     color: #fff;
     margin-top: 3rem;
@@ -247,7 +250,7 @@ p {
     .pass_text h4 {
       font-weight: 400; }
   .pass_button .button-pass {
-    background-color: #E12D2D;
+    background-color: rgba(2, 103, 255, 0.95);
     color: #fff; }
     .pass_button .button-pass:hover {
-      background-color: rgba(225, 45, 45, 0.75); }
+      background-color: rgba(2, 103, 255, 0.75); }
