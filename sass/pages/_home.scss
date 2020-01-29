@@ -56,6 +56,11 @@
             img{
                 width:450px;
                 height:300px;
+                box-shadow: -1.5rem 1.5rem 1rem rgba(0, 0, 0, 0.4);
+            }
+
+            & .img-right{
+                box-shadow:1.5rem 1.5rem 1rem rgba(0, 0, 0, 0.4);
             }
         }
 
