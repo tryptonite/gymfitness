@@ -39,8 +39,8 @@
                 padding-bottom: .5rem;
 
                 &:hover{
-                    // border-bottom: 2px rgb(247, 61, 55) solid;
-                    border-bottom: 2px rgba(2, 103, 255, 0.95) solid;
+                    border-bottom: 2px rgb(247, 61, 55) solid;
+                    // border-bottom: 2px rgba(2, 103, 255, 0.95) solid;
                 }
             }
 
@@ -49,8 +49,8 @@
             }
         }
     & .btn-memberships{
-        // background-color: rgb(247, 61, 55);
-        background-color: rgba(2, 103, 255, 0.95);
+        background-color: rgb(247, 61, 55);
+        // background-color: rgba(2, 103, 255, 0.95);
         padding:.75rem;
         color:#fff;
         font-weight:500;
@@ -58,8 +58,8 @@
         
         &:hover{
             border-bottom: none;
-            // background-color: rgba(247, 62, 55, 0.75);
-            background-color: rgba(2, 103, 255, 0.75);
+            background-color: rgba(247, 62, 55, 0.75);
+            // background-color: rgba(2, 103, 255, 0.75);
         }
     }
     
