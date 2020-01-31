@@ -35,14 +35,27 @@ p {
   position: fixed;
   width: 100%;
   display: inline-block;
-  height: 8rem;
+  height: 10rem;
   background-color: #fff;
   box-shadow: 0rem 0.5rem 1rem rgba(0, 0, 0, 0.5);
   z-index: 9999; }
+  .nav_hours {
+    display: inline-block;
+    width: 100%;
+    background-color: #2d2d2d;
+    color: #fff;
+    font-size: 1.4rem;
+    font-family: "Roboto", "sans-serif";
+    font-weight: 500;
+    text-align: center;
+    padding: .5rem; }
+    .nav_hours ul li {
+      display: inline-block;
+      padding-left: 2rem; }
   .nav_brand {
     display: inline-block;
     position: absolute;
-    top: 15%;
+    top: 33%;
     left: 1%;
     font-size: 2.5rem;
     color: #000;
@@ -55,7 +68,7 @@ p {
     font-size: 1.5rem;
     display: inline-block;
     position: absolute;
-    top: 12%;
+    top: 30%;
     right: 3%;
     margin-top: 2rem; }
     .nav_links ul {
@@ -97,7 +110,7 @@ p {
 
 .header {
   height: 800px;
-  background: linear-gradient(to top, #cc2936, rgba(255, 123, 61, 0.8)), url(../images/dumbbell-equipment.jpg);
+  background: linear-gradient(to top, #cc2937b9, rgba(255, 123, 61, 0.8)), url(../images/dumbbell-equipment.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -112,7 +125,7 @@ p {
   .header_span {
     position: absolute;
     top: 65%;
-    left: -2%;
+    left: -1%;
     font-size: 12.5rem;
     cursor: default;
     color: rgba(255, 255, 255, 0.7); }
@@ -188,17 +201,7 @@ p {
     .features_grid--img img {
       width: 450px;
       height: 300px;
-      box-shadow: -1.5rem 1.5rem 1rem rgba(0, 0, 0, 0.25);
-      transition: all 0.3s ease;
-      backface-visibility: hidden;
-      -moz-backface-visibility: hidden;
-      -webkit-backface-visibility: hidden; }
-      .features_grid--img img:hover {
-        transform: rotate(-3deg); }
-    .features_grid--img .img-right {
-      box-shadow: 1.5rem 1.5rem 1rem rgba(0, 0, 0, 0.25); }
-      .features_grid--img .img-right:hover {
-        transform: rotate(3deg); }
+      box-shadow: -1.5rem 1.5rem 1rem rgba(0, 0, 0, 0.25); }
     .features_grid--text {
       grid-column: 3;
       margin: auto; }
@@ -237,6 +240,44 @@ p {
     width: 30%;
     float: left;
     margin: 3rem 0 auto 5rem; }
+
+.intro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: -.5rem; }
+  .intro_img {
+    text-align: center;
+    grid-column: 1; }
+    .intro_img img {
+      width: 650px;
+      height: 600px; }
+  .intro_text {
+    font-family: 'Roboto','sans-serif';
+    padding: 0 7rem;
+    color: #fff;
+    height: 600px;
+    line-height: 600px;
+    grid-column: 2;
+    background: linear-gradient(to right, #0c0c0ce5, rgba(139, 139, 139, 0.753)), url(../images/barbell-man-about.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative; }
+    .intro_text--box {
+      vertical-align: middle;
+      display: inline-block;
+      line-height: 27px; }
+      .intro_text--box-line {
+        width: 6px;
+        height: 70%;
+        position: absolute;
+        top: 0%;
+        left: 5.5%; }
+    .intro_text h4 {
+      font-family: 'Poppins','sans-serif';
+      font-size: 3rem;
+      margin-bottom: 2rem;
+      color: rgba(251, 223, 85, 0.8); }
 
 .convert {
   text-align: center;
