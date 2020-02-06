@@ -1,0 +1,90 @@
+.nav{
+    position: fixed;
+    width: 100%;
+    display: inline-block;
+    height:10rem;
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0rem .5rem 1rem rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+
+    &_hours{
+        display:inline-block;
+        width:100%;
+        background-color: rgb(45, 45, 45);
+        color:#fff;
+        font-size: 1.4rem;
+        font-family: "Roboto", "sans-serif";
+        font-weight:500;
+        text-align: center;
+        padding:.5rem;
+
+        ul{
+            li{
+                display:inline-block;
+                padding-left: 2rem;              
+            }
+        }
+        
+    }
+
+    &_brand{
+        display:inline-block;
+        position: absolute;
+        top:33%;
+        left:1%;
+        font-size: 2.5rem;
+        color: #000;
+        letter-spacing: 2px;
+        font-weight: 500;
+        padding-left: 2rem;
+        margin-top: 1rem;
+        text-transform: uppercase;
+    }
+
+    &_links{
+        font-size:1.5rem;
+        display: inline-block;
+        position: absolute;
+        top:30%;
+        right:3%;
+        margin-top: 2rem;
+
+        ul{
+            padding-bottom: 3rem;
+            
+            a{ 
+                text-decoration: none;
+                color:#000;
+                margin-left:3rem;
+                padding-bottom: .5rem;
+
+                &:hover{
+                    border-bottom: 2px rgb(247, 61, 55) solid;
+                    // border-bottom: 2px rgba(2, 103, 255, 0.95) solid;
+                }
+            }
+
+            li{
+                display: inline-block;
+            }
+        }
+    & .btn-memberships{
+        background-color: rgb(247, 61, 55);
+        // background-color: rgba(2, 103, 255, 0.95);
+        padding:.75rem;
+        color:#fff;
+        font-weight:500;
+        letter-spacing: 1px;
+        
+        &:hover{
+            border-bottom: none;
+            background-color: rgba(247, 62, 55, 0.75);
+            // background-color: rgba(2, 103, 255, 0.75);
+        }
+    }
+    
+    }
+
+
+
+}

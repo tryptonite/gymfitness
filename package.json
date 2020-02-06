@@ -1,0 +1,18 @@
+{
+  "name": "fitnessedge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bulma": "^0.8.0",
+    "bulma-carousel": "^4.0.4"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  },
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Kyzen Web Design",
+  "license": "ISC"
+}

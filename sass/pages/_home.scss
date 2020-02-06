@@ -1,0 +1,276 @@
+.opti{
+    width:100%;
+    position:fixed;
+    top:50%;
+    left:50%;
+    text-align: center;
+    z-index:9999;
+    transform:translate(-50%, -50%);
+    color:rgba(0, 0, 0, 0.5);
+    cursor: default;
+    
+    p{
+        font-size: 4rem;
+    }
+}
+
+
+.features{
+    position: relative;
+    z-index: 2000;
+    // height:1
+    // background:linear-gradient(to top left, rgba(255, 132, 132, 0.65),rgba(255, 255, 255, 0.9)),url(../images/woman-barbell.jpg);
+    // background:linear-gradient(to top left, rgba(255, 187, 187, 0.65),rgba(255, 255, 255, 0.95)),url(../images/woman-barbell.jpg);
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    & h2{
+        padding: 2rem 0;
+        background-color: #000;
+        color:#fff;
+        font-size: 3rem;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+ 
+
+    &_grid{
+        padding: 5% 0;
+        display:grid;
+        grid-template-columns:1fr 2fr 2fr 1fr;
+        grid-gap: 10rem;
+
+        & .one{
+            grid-column: 2;
+        }
+
+        & .two{
+            grid-column: 3;
+        }
+
+        &--img{
+
+            img{
+                width:450px;
+                height:300px;
+                box-shadow: -1.5rem 1.5rem 1rem rgba(0, 0, 0, 0.25);
+                // transition: all 0.3s ease;
+                // backface-visibility: hidden;
+                // -moz-backface-visibility: hidden;
+                // -webkit-backface-visibility: hidden;
+
+                // &:hover{
+                //     transform:rotate(-3deg);
+                // }
+            }
+
+            // & .img-right{
+            //     box-shadow:1.5rem 1.5rem 1rem rgba(0, 0, 0, 0.25);
+
+            //     &:hover{
+            //         transform: rotate(3deg);
+            //     }
+            // }
+        }
+
+        &--text{
+            grid-column: 3;
+            margin:auto;
+            
+
+            h3{
+                font-family: 'Montserrat', 'sans-serif';
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                font-size:2.5rem;
+                color:rgb(75, 75, 75);
+            }
+
+            p{
+                font-family: 'Roboto', sans-serif;
+                padding-top:2rem;
+            }
+        }
+    }
+}
+
+/* Testimonials */
+.test-head{
+    font-size:3rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.testimonials{
+    padding:5% 10%;
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    font-family: "Roboto", "sans-serif";
+
+    &_img{
+        width:40%;
+        float:left;
+        text-align: right;
+
+        img{
+            width:150px;
+            height:150px;
+            border-radius:50%;
+        }
+    }
+    &_text{
+        height:150px;
+        width:30%;
+        float:left;
+        margin: 3rem 0 auto 5rem;
+    }
+}
+
+// Intro 
+// .clearfix{
+//     overflow:auto;
+// }
+
+.intro{
+    // padding: 0 10rem;
+    // display:flex;
+    // align-items: center;
+    // justify-content: center;
+    // background-color: #000;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    // grid-gap: 7rem;
+    margin-bottom: -.5rem;
+
+
+    &_img{
+        text-align: center;
+        grid-column: 1;
+
+
+        img{
+            width:650px;
+            height:600px;
+        }
+    }
+
+    &_text{
+        font-family: 'Roboto','sans-serif';
+        padding:0 7rem;
+        color:#fff;
+        height:600px;
+        line-height:600px;
+        grid-column: 2;
+        background:linear-gradient(to right, #0c0c0ce5,rgba(139, 139, 139, 0.753)) ,url(../images/barbell-man-about.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+
+        
+
+        &--box{
+            vertical-align: middle;
+            display:inline-block;
+            line-height:27px;
+
+            &-line{
+                    width:6px;
+                    height:70%;
+                    // background-color: #f73d37;
+                    position: absolute;
+                    top:0%;
+                    left:5.5%;
+            }
+        }
+
+        h4{
+            font-family: 'Poppins','sans-serif';
+            font-size: 3rem;
+            margin-bottom: 2rem;
+            color:rgba(251, 223, 85, 0.80);
+        }
+    }
+}
+
+
+
+.convert{
+    text-align: center;
+    height:275px;
+    background: linear-gradient(to right, #cc2936,rgba(255, 123, 61, 0.85));
+    // background: linear-gradient(to right, rgba(2, 103, 255, 0.80),rgba(47, 202, 194, 0.9));
+    display:flex;
+    flex-direction: column;
+    margin:auto;
+
+    &_header{
+        margin:3rem;
+        font-size: 5rem;
+        text-transform: uppercase;
+        color: #fff;
+        letter-spacing: 3px;
+
+        & h3{
+            font-weight: 600;
+        }
+    }
+
+    &_button{
+        
+        & .button-cvt{
+            color:#000;
+            background-color: rgba(251, 223, 85, 0.95);
+            // background-color: rgb(49, 49, 49);
+            // color:#fff;
+
+            &:hover{
+                background-color: rgba(251, 223, 85, 0.7);
+                // background-color: rgba(49, 49, 49, 0.7);
+            }
+        }
+    }
+    
+    &_expiry{
+        color:#fff;
+        margin-top: 3rem;
+        font-size: 1.75rem;
+    }
+}
+
+.pass{
+    height: 200px;
+    background-color: #C4C4C4;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5rem;
+
+    &_text{
+        font-size: 3.5rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        
+        & h4{
+            font-weight: 400;
+        }
+    }    
+    &_button{
+        
+        & .button-pass{
+            background-color: #E12D2D;
+            // background-color: rgba(2, 103, 255, 0.95);
+            color:#fff;
+
+            &:hover{
+                background-color: rgba(225, 45, 45, 0.75);
+                // background-color: rgba(2, 103, 255, 0.75);
+            }
+        }
+    }
+}
